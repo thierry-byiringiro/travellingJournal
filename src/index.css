@@ -111,6 +111,11 @@ button:focus-visible {
 .light > * + * {
   margin-left: 10px;
 }
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
 
 .light > .save{
   display: flex;
@@ -122,7 +127,7 @@ button:focus-visible {
 
 
 .power{
-  margin-top: -4px;
+  margin-top: -2px;
   font-weight: bold;
 }
 .fuji{
@@ -133,10 +138,14 @@ button:focus-visible {
 .pic > img{
   width: 135px;
   height: 190px;
+  border-radius: 5px;
 }
 .light > .save > .top{
   display: flex;
   gap: 10px;
+}
+.div{
+  margin-top: -5px;
 }
 
 .ii{
