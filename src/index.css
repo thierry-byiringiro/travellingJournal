@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
+  background-color: rgb(255, 255, 255);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,24 +16,25 @@
 a {
   font-weight: 500;
   color: #646cff;
-  text-decoration: inherit;
+  /* text-decoration: inherit; */
 }
+
 a:hover {
   color: #535bf2;
 }
 
+li{
+  list-style: none;
+}
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family:  "Inter", sans-serif;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+
 
 button {
   border-radius: 8px;
@@ -46,9 +47,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -59,10 +62,83 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+.fulaha{
+  width: 650px;
+  height: 704px;
+}
+
+.matter{
+  display: flex;
+  background-color: #F55A5A;
+  width: 550px;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  color: white;
+}
+
+.matter > img{
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+.matter > p{
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: Inter;
+}
+
+
+.light{
+  display: flex;
+  margin: 10px 0px;
+  width: 550px;
+  height: 100px;
+}
+.light > * + * {
+  margin-left: 10px;
+}
+
+.light > .save{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  line-height: 1;
+  text-align: left;
+}
+
+
+.power{
+  margin-top: -4px;
+  font-weight: bold;
+}
+.fuji{
+  font-weight: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.pic > img{
+  width: 135px;
+  height: 190px;
+}
+.light > .save > .top{
+  display: flex;
+  gap: 10px;
+}
+
+.ii{
+  width: 12px;
 }
