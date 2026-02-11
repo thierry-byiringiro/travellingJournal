@@ -23,7 +23,7 @@ a:hover {
   color: #535bf2;
 }
 
-li{
+li {
   list-style: none;
 }
 body {
@@ -31,10 +31,8 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  font-family:  "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
-
-
 
 button {
   border-radius: 8px;
@@ -72,15 +70,14 @@ button:focus-visible {
   }
 }
 
-
-.fulaha{
+.fulaha {
   width: 650px;
   height: 704px;
 }
 
-.matter{
+.matter {
   display: flex;
-  background-color: #F55A5A;
+  background-color: #f55a5a;
   width: 550px;
   height: 55px;
   justify-content: center;
@@ -89,20 +86,19 @@ button:focus-visible {
   color: white;
 }
 
-.matter > img{
+.matter > img {
   width: 24px;
   height: 24px;
   margin-right: 7px;
 }
 
-.matter > p{
+.matter > p {
   font-size: 1rem;
   font-weight: 500;
   font-family: Inter;
 }
 
-
-.light{
+.light {
   display: flex;
   margin: 10px 0px;
   width: 550px;
@@ -111,43 +107,42 @@ button:focus-visible {
 .light > * + * {
   margin-left: 10px;
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
   gap: 120px;
 }
 
-.light > .save{
+.light > .save {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
   line-height: 1;
   text-align: left;
 }
 
-
-.power{
+.power {
   margin-top: -2px;
   font-weight: bold;
 }
-.fuji{
+.fuji {
   font-weight: 30px;
   font-weight: bold;
   font-size: 20px;
 }
-.pic > img{
+.pic > img {
   width: 135px;
   height: 190px;
   border-radius: 5px;
 }
-.light > .save > .top{
+.light > .save > .top {
   display: flex;
   gap: 10px;
 }
-.div{
+.div {
   margin-top: -5px;
 }
 
-.ii{
+.ii {
   width: 12px;
 }
