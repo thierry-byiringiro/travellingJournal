@@ -1,25 +1,23 @@
 import { japan, map } from '../assets'
-const Entry = () => {
+const Entry = ({img,title,country,googleMapsLink,dates,text}) => {
     return (
         <div className='light'>
-            <div className='pic'><img src={japan} alt="mount fuji picture" />
+            <div className='pic'><img src={img.src} alt={img.alt} />
             </div>
             <div className='save'>
                 <div className='top'>
                     <img src={map} alt="" className='ii'/>
-                    <div>Japan</div>
+                    <div>{country}</div>
                     <div>
-                        <a href="https://www.google.com/maps/place/Mount+Fuji/@35.3606421,138.7170637,15z/data=!3m1!4b1!4m6!3m5!1
-                            s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m
-                            2!3d35.3606255!4d138.7273634!16zL20vMGNrczA?entry=ttu">View on Google maps
+                        <a href={googleMapsLink}>View on Google maps
                         </a>
                     </div>
                 </div>
-                <p className='fuji'>Mount Fuji</p>
-                <p className='power'>12 Jan, 2021 - 24 Jan, 2021</p>
+                <p className='fuji'>{title}</p>
+                <p className='power'>{dates}</p>
                 <div className='div'>
                     <p>
-                        Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.
+                        {text}
                     </p>
                 </div>
             </div>
